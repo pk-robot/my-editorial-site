@@ -1,0 +1,5 @@
+title: The Chronicle
+description: A clean collection of biographies, essays, and stories.
+theme: jekyll-theme-minimal
+permalink: /articles/:title/
+markdown: kramdown
