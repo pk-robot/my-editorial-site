@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg: #faf9f6; --text: #1a1a1a; --muted: #555555; --accent: #7c5e43; --border: #e5e5e0;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            background: var(--bg); color: var(--text); 
+            font-family: 'Lora', Georgia, serif; font-size: 1.2rem; line-height: 1.8; 
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 0 1.5rem; }
+        header { border-bottom: 1px solid var(--border); padding: 1.5rem 0; margin-bottom: 4rem; }
+        .header-flex { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Plus Jakarta Sans', sans-serif; font-bold: 700; text-decoration: none; color: var(--text); text-transform: uppercase; letter-spacing: 0.05em; }
+        nav a { font-family: 'Plus Jakarta Sans', sans-serif; text-decoration: none; color: var(--muted); margin-left: 1.5rem; font-size: 0.95rem; }
+        nav a:hover { color: var(--accent); }
+        h1, h2, h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; margin-bottom: 1.5rem; color: #000; }
+        .meta { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.9rem; color: var(--muted); margin-bottom: 3rem; }
+        p { margin-bottom: 1.75rem; text-align: justify; }
+        blockquote { border-left: 4px solid var(--accent); padding-left: 1.5rem; margin: 2rem 0; font-style: italic; color: var(--accent); }
+        footer { border-top: 1px solid var(--border); margin-top: 6rem; padding: 3rem 0; text-align: center; font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.9rem; color: var(--muted); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container header-flex">
+            <a href="/" class="logo">The Chronicle</a>
+            <nav>
+                <a href="/">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>&copy; 2026 {{ site.title }}. Cloud-compiled securely.</p>
+    </footer>
+
+</body>
+</html>
