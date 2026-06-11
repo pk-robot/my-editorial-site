@@ -2,7 +2,7 @@
 layout: default
 title: "Dr. Arthur Vance: The Botanical Pioneer"
 category: "Biography"
-excerpt: "The extraordinary life of Edinburgh's premier wilderness explorer and his mapmaking travels."
+excerpt: "The extraordinary life of Edinburgh's premier wilderness explorer and his mapmaking travels. Graduating from Edinburgh in 1864, he rejected a comfortable academic tenure to "
 ---
 
 Dr. Arthur Vance dedicated his life to documenting the sub-alpine flora of the mountain ranges. Graduating from Edinburgh in 1864, he rejected a comfortable academic tenure to join hazardous boundary expeditions.
